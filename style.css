@@ -1,0 +1,746 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.uni-padding {
+  padding: 0% 3%;
+}
+/* topbar */
+#topbar {
+  background-color: #ffc045;
+  overflow: auto;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+#social-icons {
+  float: right;
+}
+#toll-free {
+  float: left;
+  color: #fdfdfd;
+  margin: 0;
+  margin-top: 7px;
+}
+.fab {
+  background-color: #fdfdfd;
+  color: #ffc045;
+  padding: 7px;
+  border-radius: 50%;
+}
+#group1 {
+  background-color: #ffc045;
+  height: 700px;
+}
+#topbar {
+  overflow: auto;
+}
+#div-60 {
+  width: 60%;
+  float: left;
+}
+
+#div-40 {
+  width: 40%;
+
+  display: inline-block;
+}
+
+#div-40 p {
+  margin-top: 67px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  display: inline-block;
+  font-family: "Inconsolata", monospace;
+}
+#div-60 img {
+  width: 40%;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  /* padding-right: 60%; */
+}
+#navbar ul {
+  padding-left: 0px;
+}
+#navbar ul li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 20px;
+  font-size: 20px;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: rgb(81 66 61);
+}
+#navbar ul li:hover {
+  transform: scale(1.2);
+}
+#navbar ul li a:hover {
+  color: tomato;
+  border-radius: 3px;
+  text-shadow: 1px 1px black;
+  transition: all 0.3s ease;
+}
+#navbar ul li a:active {
+  color: rgb(83, 116, 124);
+}
+
+.div-50 {
+  width: 50%;
+  float: left;
+}
+
+.div-50 p {
+  border: dashed 1px black;
+  display: inline-block;
+  font-size: 17px;
+  margin: 0px;
+  padding: 10px 33px;
+  font-family: "Inconsolata", monospace;
+}
+.div-50 h1 {
+  font-size: 125px;
+  color: rgb(81 66 61);
+  margin: 0px;
+  font-weight: 900;
+  text-shadow: 2px 4px white;
+  font-family: "Inconsolata", monospace;
+  letter-spacing: 4px;
+}
+.div-50 h2 {
+  font-size: 87px;
+  color: black;
+  margin: 0px;
+  font-weight: 900;
+  text-shadow: 2px 4px white;
+  padding-top: 0px;
+  letter-spacing: 4px;
+}
+.div-50 #img1 {
+  width: 50%;
+}
+.div-50 #img2 {
+  width: 17%;
+}
+.div-50 #img3 {
+  width: 25%;
+}
+/* group 2 */
+#group2 {
+  background-color: #ffffff;
+  height: 500px;
+}
+#section-left-50 {
+  width: 50%;
+
+  float: left;
+  position: relative;
+}
+#section-right-50 {
+  width: 50%;
+
+  float: left;
+  position: relative;
+  /* overflow: auto; */
+}
+#section-left-50 #img1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5%;
+  width: 80%;
+}
+#section-right-50 #img2 {
+  padding-top: 50px;
+
+  padding-right: 5%;
+  width: 80%;
+}
+#section-right-50 #img3 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 80%;
+}
+
+#text1 {
+  width: 100%;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+#text1 h3 {
+  font-size: 30px;
+  font-family: "Inconsolata", monospace;
+  margin-bottom: 2px;
+  color: white;
+  text-shadow: 2px 3px black;
+}
+#text1 h2 {
+  font-size: 40px;
+  font-family: "Inconsolata", monospace;
+  margin-bottom: 2px;
+  margin: 0%;
+  color: white;
+  text-shadow: 2px 3px black;
+}
+#text2 {
+  width: 100%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+#text2 h3 {
+  font-size: 20px;
+  font-family: "Inconsolata", monospace;
+  margin-bottom: 2px;
+  color: white;
+  text-shadow: 2px 3px black;
+}
+#text2 h2 {
+  font-size: 40px;
+  font-family: "Inconsolata", monospace;
+  margin-bottom: 2px;
+  margin: 0%;
+  color: white;
+  text-shadow: 2px 3px black;
+}
+#text3 {
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+#text3 h3 {
+  font-size: 20px;
+  font-family: "Inconsolata", monospace;
+  margin-bottom: 2px;
+  color: white;
+  text-shadow: 2px 3px black;
+}
+#text3 h2 {
+  font-size: 40px;
+  font-family: "Inconsolata", monospace;
+  margin-bottom: 2px;
+  margin: 0%;
+  color: white;
+  text-shadow: 2px 3px black;
+}
+/* group3 */
+#group3 {
+  clear: both;
+  text-align: center;
+}
+#group3 h2 {
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+  border: solid 2px #ffc045;
+  display: inline-block;
+  background-color: #ffc045;
+  padding: 10px 40px;
+}
+#group3 h1 {
+  font-family: "Inconsolata", monospace;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 22px 0px;
+}
+/* blog-section */
+.red-heading {
+  color: tomato;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Inconsolata", monospace;
+}
+
+#whysection {
+  overflow: auto;
+  margin-bottom: 70px;
+  height: 750px;
+}
+.section-33 {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  padding: 0 50px 0 50px;
+  box-sizing: border-box;
+}
+.section-33 img {
+  height: 328.997px;
+  max-height: 100%;
+  max-width: 100%;
+}
+.section-33 h2 {
+  color: tomato;
+  font-family: "Inconsolata", monospace;
+}
+.section-33 p {
+  color: #363636;
+  padding: 22px 0px;
+}
+.section-33 a {
+  text-decoration: none;
+  border: solid 2px #bf2222;
+  background-color: #bf2222;
+  padding: 8px 30px;
+  font-family: "Inconsolata", monospace;
+  color: white;
+  font-weight: bold;
+}
+/* group5 */
+#group5 {
+  height: auto;
+  border: solid 2px white;
+  padding-top: 10px;
+  margin: 0 50px;
+  box-sizing: border-box;
+  overflow: auto;
+  box-shadow: 15px 15px 15px grey;
+}
+.half {
+  width: 50%;
+  float: left;
+}
+.half img {
+  width: 100%;
+  height: 20%;
+}
+.half h2 {
+  font-family: "Inconsolata", monospace;
+  color: rgb(20, 19, 19);
+  text-shadow: 1px 2px rgb(49, 40, 40);
+  margin: 0%;
+}
+.half h1 {
+  font-family: "Inconsolata", monospace;
+  color: rgb(20, 19, 19);
+  text-shadow: 1px 2px rgb(49, 40, 40);
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.half p {
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 0;
+  text-align: left;
+}
+/* group6 */
+#group6 {
+  /* overflow: auto; */
+  height: auto;
+}
+#div25 {
+  width: 25%;
+
+  height: auto;
+  float: left;
+}
+#div50 {
+  width: 50%;
+  height: auto;
+  float: left;
+  text-align: center;
+  overflow: auto;
+}
+#div25-2 {
+  width: 25%;
+  height: auto;
+  float: left;
+}
+#div25 #imgl {
+  width: 40%;
+  height: 50%;
+  padding-top: 70px;
+  display: block;
+}
+#div25 #imgb {
+  /* margin-left: 25px; */
+  padding-left: 160px;
+}
+#div25-2 img {
+  width: 70%;
+  float: right;
+  margin-top: 250px;
+}
+/* form */
+#div50 h2 {
+  padding-top: 70px;
+  margin: 0px;
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+}
+#div50 h1 {
+  padding: 22px 0px;
+  margin-top: 0px;
+  font-family: "Inconsolata", monospace;
+  font-size: 50px;
+  text-shadow: 2px 2px rgb(175 114 114);
+}
+input[type="text"] {
+  padding: 20px;
+  width: 45%;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+  margin-right: 15px;
+}
+input[type="submit"] {
+  width: 45%;
+  padding: 20px;
+  margin-right: 15px;
+  background-color: #bf2222;
+}
+/* footer */
+
+#bottom {
+  clear: both;
+  margin-top: 10%;
+  width: 100%;
+  margin-bottom: 5%;
+  /* opacity: 0.6; */
+}
+#text {
+  margin-top: -45%;
+  margin-left: 8%;
+}
+#text img {
+  width: 40%;
+  padding: 22px 0px;
+}
+#text p {
+  color: white;
+  width: 50%;
+  font-size: 20px;
+}
+#copy {
+  background-color: blue;
+  height: 30px;
+}
+#copy p {
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+/* responsive ipad pro */
+@media only screen and (max-width: 1025px) {
+  #group1 {
+    background-color: #ffc045;
+    height: 80vh;
+  }
+  .div-50 {
+    width: 100%;
+    display: block;
+  }
+  #section-left-50 {
+    width: 100%;
+  }
+  #section-right-50 {
+    width: 100%;
+    align-items: center;
+  }
+  #section-right-50 #img2 {
+    padding-left: 50px;
+  }
+  #section-right-50 #img3 {
+    padding-left: 50px;
+  }
+  #text3 {
+    left: 13%;
+    top: 60%;
+  }
+  #text2 {
+    left: 13%;
+    top: 15%;
+  }
+  #text1 {
+    left: 13%;
+    top: 17%;
+  }
+  #section-right-50 #img3 {
+    padding-left: 87px;
+  }
+  #section-right-50 #img2 {
+    padding-left: 87px;
+  }
+  #section-left-50 #img1 {
+    padding-left: 9%;
+  }
+  #div25 #imgb {
+    padding-left: 100px;
+  }
+  #group3 h1 {
+    padding: 20px 0px;
+  }
+  #div50 h1 {
+    padding: 24px 0px;
+  }
+}
+/* responsive ipad  */
+@media only screen and (max-width: 768px) {
+  #div-40 p {
+    margin-left: 15px;
+  }
+  #div-60 {
+    width: 50%;
+  }
+  #div-40 {
+    width: 50%;
+  }
+  #navbar ul li {
+    padding-right: 13px;
+    font-size: 20px;
+  }
+  #text2 {
+    left: 9%;
+    top: 16%;
+  }
+  #text3 {
+    left: 10%;
+    top: 53%;
+  }
+  #div25 #imgb {
+    padding-left: 70px;
+  }
+  #section-left-50 #img1 {
+    padding-left: 13%;
+  }
+  #text1 {
+    left: 18%;
+    top: 17%;
+  }
+  #section-right-50 #img2 {
+    padding-left: 87px;
+  }
+  #text2 {
+    left: 17%;
+  }
+  #section-right-50 #img3 {
+    padding-left: 87px;
+  }
+  #text3 {
+    left: 17%;
+  }
+  #text1 h2 {
+    font-size: 22px;
+  }
+  #group1 {
+    height: 80vh;
+    width: 100%;
+  }
+  .section-33 a {
+    padding: 10px 25px;
+  }
+  #group3 h1 {
+    padding: 20px 0px;
+  }
+  #div50 h1 {
+    padding: 28px 0px;
+  }
+  #text p {
+    width: 100%;
+  }
+}
+/* responsive i-phone */
+@media only screen and (max-width: 500px) {
+  .div-50 h1 {
+    font-size: 100px;
+    letter-spacing: 2px;
+  }
+
+  .div-50 h2 {
+    font-size: 65px;
+    letter-spacing: 2px;
+  }
+  #group1 {
+    height: 100vh;
+    width: 100%;
+  }
+  #section-left-50 #img1 {
+    padding-left: 11%;
+  }
+  #text1 h3 {
+    font-size: 25px;
+  }
+  #text1 h2 {
+    font-size: 24px;
+  }
+  #text1 {
+    left: 15%;
+  }
+  #section-right-50 #img3 {
+    padding-left: 35px;
+  }
+  #section-right-50 #img2 {
+    padding-left: 35px;
+  }
+  #section-right-50 #img2 {
+    padding-top: 0px;
+  }
+  #text2 h3 {
+    font-size: 13px;
+  }
+  #text2 h2 {
+    font-size: 25px;
+  }
+  #text2 {
+    top: 3%;
+  }
+  #text2 {
+    left: 14%;
+  }
+  #text3 h2 {
+    font-size: 25px;
+  }
+  #text3 {
+    left: 13%;
+  }
+  #text3 h3 {
+    font-size: 15px;
+  }
+  #group3 h1 {
+    font-size: 35px;
+    margin-left: 20px;
+  }
+  #group3 h2 {
+    margin-left: 20px;
+  }
+  #group3 p {
+    margin-left: 35px;
+  }
+  .section-33 {
+    width: 100%;
+    height: auto;
+  }
+  .section-33 a {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 31%;
+    padding-right: 31%;
+  }
+  .section-33 {
+    padding: 0px 50px 50px 50px;
+  }
+  .half {
+    width: 100%;
+  }
+  .half h1 {
+    font-size: 27px;
+  }
+  .half p {
+    font-size: 15px;
+  }
+  #div50 {
+    width: 100%;
+  }
+  #div25 {
+    width: 100%;
+  }
+  #div25-2 {
+    width: 50%;
+  }
+
+  #div25 #imgl {
+    float: left;
+  }
+  #div25 #imgb {
+    padding-left: 150px;
+    padding-top: 55px;
+  }
+  #div25 #imgl {
+    padding-top: 100px;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+
+  #div50 {
+    padding-left: 7%;
+  }
+  #div25-2 {
+    width: 100%;
+  }
+  #div25-2 img {
+    width: 100%;
+
+    display: block;
+    margin: auto;
+    align-items: center;
+    margin-top: 20px;
+  }
+  #text p {
+    width: 100%;
+    font-size: 10px;
+  }
+  #bottom {
+    clear: both;
+    margin-top: 10%;
+    width: 100%;
+    margin-bottom: 5%;
+    width: 100%;
+    /* opacity: 0.6; */
+  }
+  #div-40 p {
+    margin-top: 47px;
+    font-size: 20px;
+    display: none;
+  }
+}
+/* mobile menu */
+#navbar ul #mobile-cross,
+#mobile-bar {
+  display: none;
+}
+/* mobile menu */
+@media only screen and (max-width: 500px) {
+  #navbar {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    padding: 0px;
+    width: 280px;
+    background-color: #ffc045;
+  }
+  #navbar ul li {
+    display: block;
+    padding-right: 35px;
+    border-bottom: 1px solid rgb(49, 47, 47);
+    padding-left: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  #mobile-cross {
+    text-align: right;
+  }
+  .fa-times-circle {
+    font-size: 25px;
+  }
+  #navbar {
+    left: -280px;
+    transition: all 0.5s ease;
+  }
+  #mobile-bar {
+    background-color: #ffc045;
+    color: white;
+    padding: 20px;
+  }
+  #navbar ul #mobile-cross,
+  #mobile-bar {
+    display: block;
+  }
+  #div-60 {
+    width: 100%;
+  }
+  #div-40 {
+    width: 100%;
+  }
+  #div-40 {
+    width: 100%;
+    display: inline-block;
+  }
+  .div-50 p {
+    font-size: 11px;
+  }
+}
